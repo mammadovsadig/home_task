@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 var=$(./task.sh)
 
 line_count=`echo "$var" | wc -l`
