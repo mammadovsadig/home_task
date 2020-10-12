@@ -8,17 +8,17 @@ Just do to the path where is the script and  run the script by below command:
 It will return 10 random and unique numbers in the range  [1-10].
 
 Example:
-[task1]# ./task.sh 
-6
-3
-4
-10
-5
-1
-8
-2
-7
-9
+[task1]# ./task.sh<br/>
+6<br/>
+3<br/>
+4<br/>
+10<br/>
+5<br/>
+1<br/>
+8<br/>
+2<br/>
+7<br/>
+9<br/>
 
 Known bugs:
 - count of generated numbers is not 10
@@ -40,34 +40,34 @@ Test script runs the script task.sh and checking for:
 
 Example of success result:
 
-[task1]# ./test_for_script.sh 
-Numbers count equals to 10 (Pass)
-Result: 1, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 8, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 7, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 9, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 5, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 6, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 10, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 2, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 4, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 3, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-
+[task1]# ./test_for_script.sh <br/>
+Numbers count equals to 10 (Pass)<br/>
+Result: 1, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 8, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 7, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 9, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 5, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 6, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 10, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 2, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 4, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 3, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result of test: Pass<br/>
 
 
 Example of fail result:
 
-Numbers count equals to 10 (Pass)
-Result: 9, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 2, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 5, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: fg, isNumber: NO, isInRange: NO, isUnique: YES  (Fail)
-Result: 6, isNumber: YES, isInRange: YES, isUnique: NO  (Fail)
-Result: 6, isNumber: YES, isInRange: YES, isUnique: NO  (Fail)
-Result: 12, isNumber: YES, isInRange: NO, isUnique: YES  (Fail)
-Result: 4, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 7, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result: 1, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)
-Result of test: Fail
+Numbers count equals to 10 (Pass)<br/>
+Result: 9, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 2, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 5, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: fg, isNumber: NO, isInRange: NO, isUnique: YES  (Fail)<br/>
+Result: 6, isNumber: YES, isInRange: YES, isUnique: NO  (Fail)<br/>
+Result: 6, isNumber: YES, isInRange: YES, isUnique: NO  (Fail)<br/>
+Result: 12, isNumber: YES, isInRange: NO, isUnique: YES  (Fail)<br/>
+Result: 4, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 7, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result: 1, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
+Result of test: Fail<br/>
 
 
