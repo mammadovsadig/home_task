@@ -10,23 +10,14 @@ It will return 10 random and unique numbers in the range  [1-10].
 Example:
 [task1]# ./task.sh 
 6
-
 3
-
 4
-
 10
-
 5
-
 1
-
 8
-
 2
-
 7
-
 9
 
 Known bugs:
