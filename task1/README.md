@@ -57,6 +57,7 @@ Result of test: Pass<br/>
 
 Example of fail result:
 
+[task1]# ./test_for_script.sh <br/>
 Numbers count equals to 10 (Pass)<br/>
 Result: 9, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
 Result: 2, isNumber: YES, isInRange: YES, isUnique: YES  (Pass)<br/>
