@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#var=$(./task.sh)
-var=$(cat res)
+var=$(./task.sh)
 
 line_count=`echo "$var" | wc -l`
 
@@ -56,7 +55,7 @@ do
 	   finalcheck='Fail'
 	   testresult='Fail'
 	fi
-	echo "Result: $i, isNumber: $isnumber, isInRange: $isinrange, isUniqe: $isuniqe  ($finalcheck)"
+	echo "Result: $i, isNumber: $isnumber, isInRange: $isinrange, isUnique: $isuniqe  ($finalcheck)"
 done
 
 echo "Result of test: $testresult"
