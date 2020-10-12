@@ -10,7 +10,7 @@ Please let us know which metrics are interesting to monitor in that specific cas
 
 Answer: 
 
-I prefer to start monitoring: 
+I prefer to start monitoring with: 
 -  Network traffic (in / out, Packet loss rate, Interface error rate, etc.)
 -  CPU (CPU load in percentage, CPU temperature, etc.)
 -  and Disk performance (read and write rate)
