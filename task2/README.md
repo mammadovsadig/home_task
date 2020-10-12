@@ -9,7 +9,7 @@ Please let us know which metrics are interesting to monitor in that specific cas
 how would you do that? What are the challenges of monitoring this?
 
 
-Answer:
+Answer: 
 
 I prefer to start monitoring: 
 -  Network traffic (in / out, Packet loss rate, Interface error rate, etc.)
